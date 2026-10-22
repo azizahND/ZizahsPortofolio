@@ -153,48 +153,54 @@ export const PROJECTS: Project[] = [
   //   thumb: 'grid',
   // },
 
-  {
-    slug: 'dashboard-interaktif',
-    title: 'Dashboard Interaktif untuk Visualisasi Data',
-    category: 'data',
-    tag: 'Data Analytics',
-    description:
-      'Membangun dashboard interaktif menggunakan Streamlit untuk mengeksplorasi data dan menyajikan hasil analisis.',
-    impact: 'Mendukung eksplorasi data dan monitoring performa model',
-    detail: {
-      overview:
-        'Proyek ini dibuat sebagai dashboard analitik untuk membantu pengguna memahami data dan membaca insight penting melalui visualisasi yang interaktif dan mudah dipakai.',
-      problem:
-        'Data mentah sulit dipahami jika hanya dilihat dalam bentuk tabel. Tantangannya adalah menyusun dashboard yang bisa merangkum tren, perbandingan, dan pola penting tanpa membuat tampilan terasa padat atau membingungkan.',
-      approach:
-        'Saya membangun dashboard dengan Streamlit dan menata alur eksplorasi data dari ringkasan umum, filter, visualisasi utama, sampai insight yang relevan. Struktur tampilan dibuat fokus pada kecepatan membaca informasi.',
-      result:
-        'Dashboard ini mempermudah proses eksplorasi data dan dipakai untuk memonitor performa model maupun membaca pola data secara lebih cepat.',
-      highlights: [
-        'Visualisasi interaktif untuk eksplorasi data',
-        'Ringkasan insight dan metrik utama',
-        'Dukungan monitoring performa model',
-        'Antarmuka ringan untuk analisis cepat',
-      ],
-    },
-    stack: [
-      'Python',
-      'Streamlit',
-      'Data Visualization',
-      'Machine Learning',
-      'Analytics',
-      'Random Forest',
-      'ETL',
 
+{
+  slug: 'dashboard-interaktif',
+  title: 'Dashboard Interaktif untuk Visualisasi Data',
+  category: 'data',
+  tag: 'Data Analytics & Engineering',
+  repo: 'https://github.com/meeutia/dashboard_bi_carrefour.git',
 
-    ],
-    thumb: 'dashboard1',
-    images: [
-    
-      dashboard2,
-      dashboard3,
+  description:
+    'Membangun pipeline ETL untuk mengekstrak, membersihkan, dan mentransformasi data sebelum menyimpannya ke PostgreSQL sebagai sumber data dashboard analitik berbasis Streamlit.',
+  impact: 'Mengintegrasikan pipeline ETL, PostgreSQL, dan dashboard interaktif untuk mendukung eksplorasi data serta monitoring performa model.',
+  detail: {
+    overview:
+      'Proyek ini mengintegrasikan proses ETL, penyimpanan data pada PostgreSQL, dan visualisasi interaktif menggunakan Streamlit. Data diolah terlebih dahulu agar lebih terstruktur dan siap digunakan sebagai sumber data dashboard untuk menyajikan insight, memantau metrik, dan memahami pola data.',
+    problem:
+      'Data mentah memerlukan proses pengolahan sebelum dapat digunakan untuk analisis dan visualisasi. Tantangannya adalah memastikan data tersusun dengan baik, tersimpan dalam database yang terstruktur, dan dapat diakses dashboard untuk menyajikan informasi secara ringkas dan mudah dipahami.',
+    approach:
+      'Saya membangun alur ETL yang mencakup ekstraksi data, pembersihan dan transformasi sesuai kebutuhan analisis, kemudian memuat hasil pengolahan ke dalam PostgreSQL. Selanjutnya, saya mengintegrasikan PostgreSQL dengan Streamlit agar data dapat ditampilkan melalui visualisasi interaktif, ringkasan metrik, dan fitur eksplorasi data.',
+    result:
+      'Pipeline ETL menghasilkan data yang lebih terstruktur dan siap dianalisis di PostgreSQL. Integrasi dengan Streamlit memungkinkan pengguna mengeksplorasi data melalui dashboard interaktif serta memantau metrik dan performa model secara lebih praktis.',
+    highlights: [
+      'Membangun pipeline ETL untuk pengolahan data',
+      'Melakukan pembersihan dan transformasi data sebelum dimuat ke database',
+      'Menyimpan data hasil pengolahan ke PostgreSQL',
+      'Mengintegrasikan PostgreSQL sebagai sumber data dashboard Streamlit',
+      'Menyajikan visualisasi interaktif dan ringkasan metrik',
+      'Mendukung eksplorasi data dan monitoring performa model',
     ],
   },
+  stack: [
+    'Python',
+    'Pandas',
+    'ETL',
+    'PostgreSQL',
+    'SQL',
+    'Streamlit',
+    'Data Visualization',
+    'Machine Learning',
+    'Random Forest',
+    'Analytics',
+  ],
+  thumb: 'dashboard1',
+  images: [
+    dashboard2,
+    dashboard3,
+  ],
+},
+
 
   {
     slug: 'petatani',
