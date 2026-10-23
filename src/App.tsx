@@ -380,7 +380,7 @@ function App() {
                   <h3>
                     <Link to={`/project/${project.slug}`}>{project.title}</Link>
                   </h3>
-                 >
+                 
                   <p className="proj-desc">{project.description}</p>
                   <p className="proj-impact">{project.impact}</p>
                   <div className="tag-row">
