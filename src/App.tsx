@@ -120,6 +120,7 @@ const SKILLS = {
     'Tailwind CSS',
     'Geographic Data Visualization',
     'Dashboard Development',
+    'Tableu'
   ],
 
   'Software Engineering & Tools': [

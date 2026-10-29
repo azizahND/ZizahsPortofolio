@@ -34,6 +34,19 @@ import simpiImage2 from '../assets/project/Simpi/Screenshot 2026-05-06 002316.pn
 import dashboard2 from '../assets/project/Dashboard/Screenshot (1982).png'
 import dashboard3 from '../assets/project/Dashboard/Screenshot (2002).png'
 
+import dashboard1 from '../assets/project/CofeeDashboard/dashboard1.png'
+import deskripsi1 from '../assets/project/CofeeDashboard/1.jpg'
+import deskripsi2 from '../assets/project/CofeeDashboard/2.jpg'
+import deskripsi3 from '../assets/project/CofeeDashboard/3.jpg'
+import deskripsi4 from '../assets/project/CofeeDashboard/4.jpg'
+import deskripsi5 from '../assets/project/CofeeDashboard/5.jpg'
+import deskripsi6 from '../assets/project/CofeeDashboard/6.jpg'
+import deskripsi7 from '../assets/project/CofeeDashboard/7.jpg'
+
+
+
+
+
 import petatani1 from '../assets/project/Petatani/Screenshot (1346).png'
 import petatani2 from '../assets/project/Petatani/Screenshot (1348).png'
 import petatani3 from '../assets/project/Petatani/Screenshot (1349).png'
@@ -198,6 +211,71 @@ export const PROJECTS: Project[] = [
   images: [
     dashboard2,
     dashboard3,
+  ],
+},
+
+
+{
+  slug: 'coffee-shop-sales-dashboard',
+  title: 'Coffee Shop Sales Performance Dashboard',
+  category: 'data',
+  tag: 'Data Analytics & Visualization',
+  repo: '',
+
+  description:
+    'Membangun dashboard interaktif menggunakan Tableau untuk menganalisis performa penjualan kedai kopi berdasarkan jumlah transaksi, total pendapatan, rata-rata nilai transaksi, jenis produk, metode pembayaran, waktu transaksi, dan pola penjualan.',
+
+  impact:
+    'Menyajikan insight bisnis melalui visualisasi data penjualan, membantu mengidentifikasi produk terlaris, preferensi metode pembayaran, tren pendapatan bulanan, serta waktu dengan pendapatan tertinggi untuk mendukung pengambilan keputusan berbasis data.',
+
+  detail: {
+    overview:
+      'Proyek ini berfokus pada analisis data transaksi kedai kopi di Cape Town menggunakan Tableau Public. Dataset mencakup tanggal dan waktu transaksi, metode pembayaran, jenis kopi yang dibeli, serta nominal pendapatan dalam South African Rand (ZAR). Dashboard menyajikan ringkasan KPI dan visualisasi interaktif untuk memahami pola transaksi dan performa penjualan berdasarkan produk, hari, bulan, metode pembayaran, dan jam transaksi.',
+
+    problem:
+      'Data transaksi penjualan memiliki berbagai dimensi yang perlu dianalisis untuk memahami performa bisnis. Tanpa visualisasi yang terstruktur, pemilik bisnis akan lebih sulit mengidentifikasi produk dengan penjualan tertinggi, memahami preferensi pembayaran pelanggan, mengevaluasi tren pendapatan, serta menentukan waktu operasional dengan performa penjualan terbaik.',
+
+    approach:
+      'Saya menggunakan Tableau Public untuk mengolah dan memvisualisasikan data transaksi penjualan kedai kopi. Analisis dilakukan melalui perhitungan total transaksi, total pendapatan, dan Average Order Value (AOV), kemudian dilengkapi dengan visualisasi produk kopi terlaris, distribusi metode pembayaran, pendapatan bulanan, jumlah transaksi berdasarkan hari, kontribusi pendapatan setiap produk, serta pendapatan berdasarkan jam transaksi. Dashboard dirancang dengan tata letak terstruktur dan tema warna yang konsisten agar informasi mudah dipahami.',
+
+    result:
+      'Dashboard menampilkan 3.636 transaksi dengan total pendapatan sebesar ZAR 115.432 dan rata-rata nilai transaksi sebesar ZAR 31,75. Americano with Milk menjadi produk dengan jumlah transaksi tertinggi pada visualisasi produk, yaitu 824 transaksi. Pembayaran menggunakan kartu mendominasi dengan proporsi 97,55%, sedangkan pembayaran tunai sebesar 2,45%. Visualisasi pendapatan bulanan dan per jam membantu mengeksplorasi pola performa penjualan serta mendukung identifikasi peluang peningkatan bisnis.',
+
+    highlights: [
+      'Menganalisis data transaksi penjualan kedai kopi menggunakan Tableau Public',
+      'Menyajikan KPI berupa total transaksi, total pendapatan, dan Average Order Value',
+      'Mengidentifikasi produk kopi berdasarkan jumlah transaksi',
+      'Menganalisis preferensi metode pembayaran kartu dan tunai',
+      'Memvisualisasikan tren pendapatan bulanan',
+      'Membandingkan jumlah transaksi berdasarkan hari dalam seminggu',
+      'Menganalisis kontribusi pendapatan setiap produk kopi',
+      'Mengidentifikasi pola pendapatan berdasarkan jam transaksi',
+      'Merancang dashboard dengan visualisasi yang terstruktur dan informatif',
+    ],
+  },
+
+  stack: [
+    'Tableau Public',
+    'Data Visualization',
+    'Data Analytics',
+    'Exploratory Data Analysis',
+    'KPI Development',
+    'Sales Analysis',
+    'Time Series Analysis',
+    'Business Intelligence',
+    'Dashboard Design',
+  ],
+
+  thumb: 'dashboard1',
+  images: [
+    dashboard1,
+    deskripsi1,
+    deskripsi2,
+    deskripsi3,
+    deskripsi4,   
+    deskripsi5,
+    deskripsi6,
+    deskripsi7,
   ],
 },
 
