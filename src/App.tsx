@@ -44,22 +44,31 @@ const PROFILE = {
 
 const EXPERIENCE = [
   {
-    role: 'Staff Data Research & Development',
+    role: 'Data Analyst (Data Research & Development)',
     org: 'Pojok Statistik Universitas Andalas',
     year: '2025 — 2026',
-    desc: 'Melakukan pengolahan, analisis, dan visualisasi data untuk mendukung kegiatan penelitian dan layanan statistik. Menyusun laporan analitik serta mengolah data geografis untuk kebutuhan pemetaan dan analisis spasial.',
+    desc: 'Melakukan pengumpulan, pengolahan, dan analisis data dari Badan Pusat Statistik (BPS) untuk mengidentifikasi tren dan menghasilkan insight terkait isu sosial dan ekonomi di Sumatera Barat. Menyajikan hasil analisis dalam bentuk infografis dan videografis sebagai media penyampaian informasi berbasis data. Selain itu, berperan sebagai Agen Statistik yang mengedukasi sivitas akademika mengenai pemanfaatan data resmi BPS serta layanan statistik',
   },
   {
-    role: 'Machine Learning Engineer',
+    role: 'ML Engineer',
     org: 'PKM-KC — Universitas Andalas',
     year: '2025',
     desc: 'Mengembangkan solusi Multimodal Deep Learning untuk deteksi dini kanker payudara. Bertanggung jawab dalam preprocessing dan validasi data, pengembangan model, eksperimen, evaluasi performa, serta implementasi model ke dalam aplikasi berbasis web dengan akurasi mencapai 96%.',
   },
    {
-    role: 'Frontend Developer Intern',
+    role: 'Frontend Dashboard Developer Intern',
     org: 'BPS Provinsi Sumatera Barat',
     year: '2025',
     desc: 'Mengembangkan antarmuka dashboard SIMANIS dan LINKFY menggunakan React.js dan Tailwind CSS. Berkolaborasi dengan backend developer dalam integrasi API, sinkronisasi data, pengembangan komponen antarmuka, dan optimalisasi tampilan responsif.',
+  },
+  
+ 
+  
+  {
+    role: 'ML Engineer',
+    org: 'UKM Neo Telemetri, Universitas Andalas',
+    year: '2024 — 2025',
+    desc: 'Mengembangkan dan membangun model Machine Learning untuk menyelesaikan permasalahan berbasis data, mulai dari preprocessing, eksplorasi data, pemilihan algoritma, pelatihan model (model training), hingga evaluasi performa. Selain itu, berperan dalam pelaksanaan pelatihan internal dengan menyusun dan menyampaikan materi pembelajaran Machine Learning kepada anggota tim guna meningkatkan pemahaman serta kemampuan teknis dalam pengembangan model.',
   },
   {
     role: 'Project Manager',
@@ -73,14 +82,6 @@ const EXPERIENCE = [
     org: 'PT Neo Software',
     year: '2025',
     desc: 'Mengembangkan dan memelihara aplikasi web secara end-to-end, mulai dari pengembangan antarmuka, implementasi backend, integrasi database, hingga debugging dan pengembangan fitur. Berkolaborasi dengan tim untuk memastikan aplikasi berjalan sesuai kebutuhan pengguna.',
-  },
- 
-  
-  {
-    role: 'Member Divisi Machine Learning',
-    org: 'UKM Neo Telemetri, Universitas Andalas',
-    year: '2024 — 2025',
-    desc: 'Melakukan preprocessing data, exploratory data analysis, dan eksperimen model Machine Learning menggunakan Python dan Scikit-learn. Terlibat dalam pengembangan dan evaluasi model untuk berbagai kebutuhan proyek AI.',
   },
 ];
 // project data imported from src/data/projects.ts
@@ -254,11 +255,11 @@ function App() {
               <p className="eyebrow-note">Fresh Graduate Sistem Informasi</p>
 
               <h1 id="heroHeadline">
-                Mengolah <span className=''>data</span>  menjadi insight, mengembangkan model, dan membangun solusi digital.
+                Mengolah data menjadi insight, mengembangkan model untuk solusi berbasis data.
               </h1>
 
               <p className="lead" id="heroLead">
-                Berpengalaman dalam Data Science, Machine Learning, dan Fullstack Development, dengan fokus pada pengolahan data, pengembangan model prediktif, visualisasi insight, serta pembangunan aplikasi web secara end-to-end.
+                Lulusan Sistem Informasi dengan pengalaman di bidang Data Science, Data Analytics, dan Machine Learning. Berfokus pada pengolahan dan analisis data, pengembangan model prediktif, serta visualisasi data untuk menghasilkan insight yang mendukung pengambilan keputusan.
               </p>
 
               <div className="cta-row">
@@ -461,7 +462,7 @@ function App() {
         <footer id="kontak" style={{ borderBottom: 'none' }}>
           <div className="wrap contact-inner">
             <div>
-              <h2>Terbuka untuk peran data science, machine learning, atau fullstack development.</h2>
+              <h2>Terbuka untuk peran data analyst, data science, dan machine learning</h2>
               <div className="cta-row" style={{ marginTop: '28px' }}>
                 <a href={`mailto:${PROFILE.email}`} className="btn">Kirim email</a>
                 <button className="btn outline" type="button" onClick={openCvFile}>Lihat CV</button>
