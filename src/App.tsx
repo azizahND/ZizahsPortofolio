@@ -72,14 +72,14 @@ const EXPERIENCE = [
   },
   {
     role: 'Project Manager',
-    org: 'PT Neo Software',
+    org: 'UKM Neo Telemetri, Universitas Andalas',
     year: '2025',
     desc: 'Memimpin proyek pengembangan software dari tahap requirement gathering, perencanaan, hingga evaluasi. Mengelola timeline dan pembagian tugas tim, berkoordinasi dengan klien dan anggota tim lintas bidang, serta memastikan kebutuhan dan progres proyek terdokumentasi dengan baik.',
   },
   
   {
     role: 'Fullstack Developer',
-    org: 'PT Neo Software',
+    org: 'UKM Neo Telemetri, Universitas Andalas',
     year: '2025',
     desc: 'Mengembangkan dan memelihara aplikasi web secara end-to-end, mulai dari pengembangan antarmuka, implementasi backend, integrasi database, hingga debugging dan pengembangan fitur. Berkolaborasi dengan tim untuk memastikan aplikasi berjalan sesuai kebutuhan pengguna.',
   },
