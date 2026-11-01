@@ -21,8 +21,8 @@ export default function ProjectDetail() {
   const [activeImage, setActiveImage] = useState(gallery[0] ?? '')
 
   useEffect(() => {
-    setActiveImage(gallery[0] ?? '')
-  }, [gallery])
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+  }, [slug])
 
   if (!project) {
     return (
@@ -54,7 +54,10 @@ export default function ProjectDetail() {
         {gallery.length > 0 && (
           <div className="project-gallery">
             <div className="project-gallery-main">
-              <img src={activeImage || gallery[0]} alt={project.title} />
+              <img
+                src={gallery.includes(activeImage) ? activeImage : gallery[0]}
+                alt={project.title}
+              />
             </div>
             {gallery.length > 1 && (
               <div className="project-gallery-thumbs" aria-label="Thumbnail proyek">
@@ -62,7 +65,9 @@ export default function ProjectDetail() {
                   <button
                     key={`${project.slug}-${img}`}
                     type="button"
-                    className={`project-gallery-thumb ${activeImage === img ? 'active' : ''}`}
+                    className={`project-gallery-thumb ${
+                      (gallery.includes(activeImage) ? activeImage : gallery[0]) === img ? 'active' : ''
+                    }`}
                     onClick={() => setActiveImage(img)}
                   >
                     <img src={img} alt={`${project.title} thumbnail`} />
@@ -87,11 +92,11 @@ export default function ProjectDetail() {
 
         <div className="detail-section">
           <span className="section-label">Highlight Pekerjaan</span>
-          <ul className="detail-list">
+          <ol className="detail-list">
             {project.detail.highlights.map((item) => (
               <li key={item}>{item}</li>
             ))}
-          </ul>
+          </ol>
         </div>
 
         <div className="detail-section">

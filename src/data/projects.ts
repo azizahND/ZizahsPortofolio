@@ -44,6 +44,10 @@ import deskripsi6 from '../assets/project/CofeeDashboard/6.jpg'
 import deskripsi7 from '../assets/project/CofeeDashboard/7.jpg'
 
 
+import dashboardEcommerce from '../assets/project/EcommerceDashboard/image.png'
+
+
+
 
 
 
@@ -278,6 +282,70 @@ export const PROJECTS: Project[] = [
     deskripsi7,
   ],
 },
+
+
+{
+  slug: 'ecommerce-sales-performance-dashboard',
+  title: 'E-Commerce Sales Performance Dashboard',
+  category: 'data',
+  tag: 'Data Analytics & Business Intelligence',
+  repo: '',
+
+  description:
+    'Mengembangkan dashboard interaktif menggunakan Google Looker Studio untuk menganalisis kinerja penjualan E-Commerce secara menyeluruh, mencakup pendapatan, keuntungan, tren penjualan, status transaksi, saluran penjualan, metode pembayaran, pengiriman, wilayah, serta performa media pemasaran.',
+
+  impact:
+    'Menyajikan insight bisnis melalui KPI dan visualisasi interaktif untuk memantau performa penjualan, mengevaluasi profitabilitas, serta menganalisis kontribusi saluran penjualan dan media pemasaran guna mendukung pengambilan keputusan berbasis data.',
+
+  detail: {
+    overview:
+      'Proyek ini berfokus pada analisis performa bisnis E-Commerce menggunakan dataset transaksi pelanggan yang mencakup 138 ribu lebih pesanan. Dataset terdiri dari informasi transaksi, tanggal pemesanan, status pesanan dan pembayaran, identitas serta karakteristik pelanggan, wilayah penjualan, saluran pemasaran, metode pembayaran, pengiriman, hingga komponen keuangan seperti gross sales, discount, net sales, product cost, dan profit. Google Looker Studio digunakan untuk membangun dashboard interaktif yang menyajikan ringkasan kinerja penjualan melalui KPI, visualisasi tren, analisis distribusi, serta fitur filter berdasarkan rentang tanggal dan wilayah.',
+
+    problem:
+      'Data transaksi E-Commerce memiliki banyak dimensi yang saling berkaitan, sehingga diperlukan pendekatan analisis yang mampu menyajikan informasi secara terstruktur. Tanpa dashboard yang informatif, pemantauan pendapatan, keuntungan, status transaksi, efektivitas saluran penjualan, dan kontribusi media pemasaran menjadi lebih sulit dilakukan. Bisnis juga membutuhkan cara untuk membandingkan performa penjualan antarperiode guna mengidentifikasi perubahan kinerja dan mendukung evaluasi strategi bisnis.',
+
+    approach:
+      'Saya melakukan eksplorasi dan analisis terhadap dataset transaksi E-Commerce, kemudian mengembangkan dashboard menggunakan Google Looker Studio. Proses analisis mencakup pengolahan metrik penjualan, perhitungan KPI seperti Total Orders, Total Revenue, Total Profit, dan Transaction Completion Rate, serta penggunaan agregasi SUM dan COUNT DISTINCT untuk memastikan perhitungan metrik sesuai dengan karakteristik data. Visualisasi dikembangkan menggunakan scorecard, donut chart, horizontal bar chart, dan time series chart untuk menganalisis saluran penjualan, status pembayaran, metode pembayaran, metode pengiriman, tren pendapatan bulanan, wilayah, dan media pemasaran. Dashboard juga dilengkapi filter rentang tanggal dan region, serta perbandingan KPI terhadap periode sebelumnya untuk memantau perubahan performa bisnis.',
+
+    result:
+      'Menghasilkan dashboard interaktif yang menyajikan ringkasan performa bisnis E-Commerce dengan 138.116 total pesanan, total pendapatan sebesar USD 110.497.246,47, total keuntungan sebesar USD 40.899.540,03, serta tingkat penyelesaian transaksi sebesar 82,22% berdasarkan ringkasan data yang ditampilkan. Dashboard memungkinkan pemantauan kinerja penjualan berdasarkan periode dan wilayah, evaluasi distribusi transaksi, serta eksplorasi kontribusi berbagai saluran penjualan dan media pemasaran. Fitur perbandingan antarperiode memberikan gambaran perubahan indikator bisnis, sehingga informasi dapat digunakan untuk mendukung evaluasi kinerja dan pengambilan keputusan berbasis data.',
+
+    highlights: [
+      'Melakukan eksplorasi dan analisis dataset transaksi E-Commerce dengan lebih dari 138 ribu pesanan',
+      'Mengembangkan dashboard interaktif menggunakan Google Looker Studio',
+      'Membangun KPI untuk memantau Total Orders, Total Revenue, Total Profit, dan Transaction Completion Rate',
+      'Menerapkan agregasi SUM dan COUNT DISTINCT untuk menghasilkan perhitungan metrik yang sesuai',
+      'Menganalisis tren pendapatan bulanan berdasarkan wilayah penjualan',
+      'Mengevaluasi performa saluran penjualan seperti Mobile App, Website, Marketplace, dan Social Media',
+      'Menganalisis distribusi status pembayaran dan preferensi metode pembayaran pelanggan',
+      'Mengevaluasi distribusi metode pengiriman dan kontribusinya terhadap transaksi',
+      'Menganalisis jumlah pesanan berdasarkan media pemasaran untuk mengevaluasi kontribusi setiap channel',
+      'Mengimplementasikan filter interaktif berdasarkan rentang tanggal dan wilayah',
+      'Menerapkan perbandingan KPI dengan periode sebelumnya untuk memantau perubahan performa bisnis',
+      'Merancang dashboard dengan struktur visualisasi yang konsisten, informatif, dan berorientasi pada kebutuhan analisis bisnis',
+    ],
+  },
+
+  stack: [
+    'Google Looker Studio',
+    'Data Analytics',
+    'Data Visualization',
+    'Exploratory Data Analysis',
+    'Business Intelligence',
+    'KPI Development',
+    'Sales Performance Analysis',
+    'Revenue & Profitability Analysis',
+    'Marketing Channel Analysis',
+    'Time Series Analysis',
+    'Interactive Dashboard Design',
+  ],
+
+  thumb: 'dashboardEcommerce',
+  images: [
+   dashboardEcommerce,
+  ],
+},
+
 
 
   {

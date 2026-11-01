@@ -121,7 +121,9 @@ const SKILLS = {
     'Tailwind CSS',
     'Geographic Data Visualization',
     'Dashboard Development',
-    'Tableu'
+    'Tableu',
+    'Looker Studio',
+
   ],
 
   'Software Engineering & Tools': [
